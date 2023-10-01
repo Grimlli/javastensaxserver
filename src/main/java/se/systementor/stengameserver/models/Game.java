@@ -1,8 +1,12 @@
 package se.systementor.stengameserver.models;
 
+import org.springframework.data.annotation.Id;
+
 import java.time.LocalDateTime;
 
+//@Entity
 public class Game {
+    @Id
     int id;
 
     public int getId() {
