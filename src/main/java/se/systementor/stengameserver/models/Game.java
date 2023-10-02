@@ -6,7 +6,7 @@ import java.time.LocalDateTime;
 
 //@Entity
 public class Game {
-    @Id
+
     int id;
 
     public int getId() {

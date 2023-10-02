@@ -11,8 +11,8 @@ import java.util.ArrayList;
 @Service
 public class StatisticsService {
 
-    @Autowired
-    GameRepository rep;
+  //  @Autowired
+    //GameRepository rep;
     private static ArrayList<Game> games = new ArrayList<Game>();
 
     public void save(String winner, String yourSelection, String mySelection) {
